@@ -2,10 +2,6 @@
 #
 # Digital Ocean Ubuntu 18.04 x64 Droplet with "Regular Intel" CPU.
 # Running:
-# git clone https://gist.github.com/54fc09734a3911e91eeeb43434f117df.git
-# cd 54fc09734a3911e91eeeb43434f117df/
-# chmod +x make-chr.sh
-# ./make-chr.sh
 #
 # Once the reboot is done, login with root/CHANGEME and change the password!
 # You might get a "Segmentation fault" on line 56 while the image is being written.
