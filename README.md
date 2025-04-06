@@ -7,7 +7,7 @@ Running:
  ./make-chr.sh
 
  
-Once the reboot is done, login with root/CHANGEME and change the password!
+Once the reboot is done, login with admin/CHANGEME and change the password!
 You might get a "Segmentation fault".
 Most of the time this is absolutely fine. Reboot the droplet and attempt to login using Winbox.
 If it didn't work, just trash the droplet and try it again.
