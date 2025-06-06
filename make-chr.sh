@@ -14,8 +14,8 @@
 # If it didn't work, just trash the droplet and try it again.
 #
 #
-#wget https://download.mikrotik.com/routeros/7.18.2/chr-7.18.2.img.zip -O chr.img.zip  && \
-wget https://download.mikrotik.com/routeros/7.19.1/chr-7.19.1.img.zip -O chr.img.zip  && \
+wget https://download.mikrotik.com/routeros/7.16/chr-7.16.img.zip -O chr.img.zip  && \
+#wget https://download.mikrotik.com/routeros/7.19.1/chr-7.19.1.img.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 apt-get update && \
 apt install -y qemu-utils pv && \
