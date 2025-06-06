@@ -1,4 +1,5 @@
 Digital Ocean Ubuntu 24.10 x64 Droplet "Regular Intel" CPU, 512 MB Memory / 10 GB Disk
+
 Obraz: 7.16
 
 Uruchom:
@@ -8,6 +9,7 @@ git clone https://github.com/RafalSc007er/CHR.git
 cd CHR/
 
 chmod +x make-chr.sh
+
 ./make-chr.sh
 
 Po uruchomieniu zaloguj się na login admin hasło CHANGEME.
