@@ -14,8 +14,7 @@
 # If it didn't work, just trash the droplet and try it again.
 #
 #
-wget https://download.mikrotik.com/routeros/7.16/chr-7.16.img.zip -O chr.img.zip  && \
-#wget https://download.mikrotik.com/routeros/7.19.1/chr-7.19.1.img.zip -O chr.img.zip  && \
+wget https://download.mikrotik.com/routeros/7.19.1/chr-7.19.1.img.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 apt-get update && \
 apt install -y qemu-utils pv && \
@@ -36,7 +35,8 @@ echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where
 /ip service disable telnet
 /user set 0 name=admin password=$PASSWORD
 /ip dns set servers=1.1.1.1,1.0.0.1
-/system package update install
+/user expire-password admin
+#/system package update install
  " > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
