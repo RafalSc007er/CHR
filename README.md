@@ -1,6 +1,6 @@
 Digital Ocean Ubuntu 24.10 x64 Droplet "Regular Intel" CPU, 512 MB Memory / 10 GB Disk
 
-Obraz: 7.16
+Obraz: 7.19.1
 
 Uruchom:
 
