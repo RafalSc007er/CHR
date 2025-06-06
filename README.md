@@ -4,7 +4,9 @@ Obraz: 7.16
 Uruchom:
 
 git clone https://github.com/RafalSc007er/CHR.git
+
 cd CHR/
+
 chmod +x make-chr.sh
 ./make-chr.sh
 
